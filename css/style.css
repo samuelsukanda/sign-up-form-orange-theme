@@ -1,0 +1,99 @@
+@font-face {
+    font-family: 'FilsonBold';
+    src: url('../font/FilsonProBold.otf');
+}
+
+@font-face {
+    font-family: 'FilsonLight';
+    src: url('../font/FilsonProLight.otf');
+}
+
+@font-face {
+    font-family: 'FilsonMedium';
+    src: url('../font/FilsonProMedium.otf');
+}
+
+.container {
+    margin-top: 55px;
+}
+
+.form-header h3 {
+    font-family: 'FilsonBold';
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.form-header p,
+.form-header a {
+    font-size: 15px;
+    font-family: 'FilsonLight';
+}
+
+.dot {
+    fill: #FF743D;
+    font-size: 24px;
+    margin-left: 147px;
+    margin-bottom: -48px;
+}
+
+.form-header a {
+    text-decoration: none;
+    color: #FF743D;
+    margin-left: 25px;
+    transition: .5s;
+}
+
+.form-header a:hover {
+    color: #ff4800;
+    border-bottom: 1px solid #ff4800;
+}
+
+.form-label,
+.form-check {
+    font-family: 'FilsonMedium';
+}
+
+.form-control {
+    width: 300px;
+    height: 45px;
+}
+
+.form-control,
+.form-check-input {
+    border-color: #FF743D;
+}
+
+.dropdown-toggle {
+    font-size: 12px;
+    height: fit-content;
+}
+
+.btn-signup {
+    width: 300px;
+    height: 45px;
+    background-color: #FF743D;
+    text-transform: uppercase;
+    color: white;
+}
+
+.btn-signup:hover {
+    color: white !important;
+    background-color: #ff4800 !important;
+}
+
+img {
+    box-shadow: 1px 1px 3px #707070;
+}
+
+.warning {
+    color: #686868;
+    margin-top: 45px;
+    font-size: 12px;
+    font-family: 'FilsonLight';
+}
+
+@media (max-width: 992px) {
+    img {
+        display: none;
+    }
+}
